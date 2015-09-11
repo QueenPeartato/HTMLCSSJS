@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-color: #D0A9F5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 2px;
+
+}
+
+h1 {
+    color: white;
+}
+
+#profile_pic {
+    width: 50px;
+    height: 50px;
+}
+
+#intro {
+    text-align:center;
+}
+
+#edu, #work {
+    border: solid 1px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.wrap {
+    display:flex;
+    justify-content: center;
+}
+
+.social_img {
+    width: 25px;
+    height: 25px;
+}
+
+#twitter {
+    padding: 0px 10px;
+}
+
+#edu_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sub_li {
+    margin-left: 10px;
+}
+
+#matrix {
+    margin-bottom: 0px;
+}
+
+#brief_words {
+    margin-top: 0px;
+}
+
+#projects {
+    width: 60%;
+    border: solid 1px;
+    padding: 10px 32px;
+    margin-top: 10px;
+}
+
+#project_wrap {
+    justify-content:space-between;
+}
+
+.project {
+    width: 45%;
+}

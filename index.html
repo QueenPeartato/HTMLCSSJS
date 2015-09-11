@@ -1,0 +1,87 @@
+<!DOCTYPE  html>
+<html>
+    <head>
+        <title>Bogdan's Page</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <script type="text/javascript">
+        var isVisible = true;
+        function toggleProjects () {
+            if(isVisible){
+                document.getElementById("projects").style.visibility = "hidden";
+                isVisible = false;
+            } else {
+                document.getElementById("projects").style.visibility = "visible";
+                isVisible = true;
+            }
+
+        }
+
+        </script>
+
+    </head>
+
+    <body>
+        <div id="header">
+            <img id="profile_pic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0dc/06d/0dc7f3a.jpg">
+            <h1>Bogdan Pozderca</h1>
+            <div>
+               <a target="_blank" href="https://www.facebook.com/bogdan.pozderca"><img class="social_img"  src="https://www.facebook.com/images/fb_icon_325x325.png"></a>
+                <a id="twitter" target="_blank" href="https://www.twitter.com/bogdanpozderca"><img class="social_img"  src="http://www.looemusic.co.uk/img-2014/LMF_blocks_twitter-2014.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/bogdanpozderca"><img class="social_img"  src="http://digitalknowledgecentre.com/sites/all/themes/dkc/img/front/LinkedIn-InBug-2C.png"></a>             
+            </div>
+ 
+
+        </div>
+		 
+        <p id="intro">Hey, this is my page! Let me know what you think
+        </p>
+		<div class="wrap">
+            <div id="edu">
+                <div id="edu_wrap">
+                    <h2>Education</h2>
+                    GPA: 3.31
+                </div>
+                 
+                <ul>
+                    <li>Michigan State University</li>
+                    <li class="sub_li">College of Engineering</li>
+                    <li class="sub_li">Computer Science</li>
+                </ul>        
+
+            </div>
+
+            <div id="work">
+                <h2>Work Experience</h2>
+                <h3 id="matrix">Matrix</h3>
+                <p id="brief_words">Website Developer</p>
+
+                <p>Aide in the creation and maintenance of online digital resources Primarily involved with PHP, MySQL, jQuery, and AngularJS.</p>            
+            </div>
+        </div>
+        <div class="wrap">
+            <div id="projects">
+                <h2>Personal Projects</h2>
+                <div class="wrap" id="project_wrap">
+                    <div class="project">
+                        Audiolyze
+
+                        <p>Using Facebook's Graph API, gathered music data to calculate statistics and design a stacked area chart representing a user's music preferences for data visualization.</p>
+                    </div>
+                    <div class="project">
+                        SpartaHack 2016 Website
+
+                        <p>Designed the backend to handle user registration, application handling, and authentication. Addition created the frontend from wireframes and assets from a design team.</p>
+                    </div>                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="wrap">
+            <button onclick="toggleProjects()">Click me!</button>
+        </div>
+
+    </body>
+
+</html>
